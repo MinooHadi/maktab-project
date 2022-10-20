@@ -37,16 +37,3 @@ function loginSubmit(event) {
   }
 }
 
-// const form = document.querySelector('form');
-// form.addEventListener('submit' , validate);
-// function validate(event){
-// const user = document.getElementById('user');
-// const pass = document.getElementById('pass');
-// if(user.value.length 15){
-// alert('نام کاربری باید 5 تا 15 کاراکتر باشد');
-// event.preventDefault();
-// }else if(pass.value.length 20){
-// alert('کلمه‌ی عبور باید 6 تا 20 کاراکتر باشد');
-// event.preventDefault();
-// }
-// }
