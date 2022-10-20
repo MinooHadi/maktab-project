@@ -10,6 +10,8 @@ body{
     border: 1px solid black;
     flex-basis: 250px;
     background-color: #D5D5D5;
+    display: flex;
+    flex-direction: column;
 }
 
 h4, p{
@@ -20,3 +22,5 @@ h4, p{
     background-color: white;
     border-bottom: none;
 }
+
+
