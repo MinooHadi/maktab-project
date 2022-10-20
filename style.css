@@ -1,26 +1,45 @@
-body{
-    direction: rtl;
+body {
+  direction: rtl;
 }
 
-.days{
-    display: flex;
+.days {
+  display: flex;
 }
 
-.day{
-    border: 1px solid black;
-    flex-basis: 250px;
-    background-color: #D5D5D5;
-    display: flex;
-    flex-direction: column;
+.day {
+  border: 1px solid black;
+  flex-basis: 250px;
+  background-color: #d5d5d5;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-h4, p{
-    text-align: center;
+h4 {
+  text-align: center;
 }
 
-.active-div{
-    background-color: white;
-    border-bottom: none;
+.active-div {
+  background-color: white;
+  border-bottom: none;
+}
+
+p {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: #d9d9d9;
+  text-align: center;
+  vertical-align: middle;
 }
 
 
+.active-div h4{
+    position: absolute;
+    top: 50px;
+}
+
+.active-div p{
+    position: absolute;
+    top: 100px;
+}
