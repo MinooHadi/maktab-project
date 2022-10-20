@@ -38,12 +38,24 @@
         <p>9</p>
       </div>
     </div>
+    <div class="login">
+        <form action="">
+            <input type="text" placeholder="نام کاربری" id="userName">
+            <input type="text" placeholder="نام و نام خانوادگی" id="fullName">
+            <input type="tel" placeholder="شماره موبایل" id="phoneNumber">
+            <h5 id="phoneError"></h5>
+            <button type="submit" onclick="loginSubmit(event)">ورود</button>
+        </form>
+    </div>
+    <!-- <ul class="todo">
+
+    </ul> -->
     <div class="container">
         <footer>
             <form>
                 <input type="text">
-                <input type="time">
-                <button type="submit">افزودن</button>
+                <input type="time" value="">
+                <button type="submit" id="add-btn" >افزودن</button>
             </form>
         </footer>
     </div>

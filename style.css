@@ -82,3 +82,8 @@ button {
   border-radius: 5px;
   background-color: #19C97F;
 }
+
+#phoneError{
+    color: red;
+    display: none;
+}
