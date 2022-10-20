@@ -16,3 +16,7 @@ h4, p{
     text-align: center;
 }
 
+.active-div{
+    background-color: white;
+    border-bottom: none;
+}
