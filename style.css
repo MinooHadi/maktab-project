@@ -1,0 +1,17 @@
+body{
+    direction: rtl;
+}
+
+.days{
+    display: flex;
+}
+
+.day{
+    border: 1px solid black;
+    flex-basis: 250px;
+    background-color: #D5D5D5;
+}
+
+h4, p{
+    text-align: center;
+}
