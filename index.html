@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -9,36 +10,36 @@
   </head>
   <body>
     <div class="days">
-      <div class="day" onclick="deletBorder(this)">
+      <div class="day" onclick="deletBorder(this)" data-index=0>
         <h4>شنبه</h4>
         <p class="pStyle">6</p>
       </div>
-      <div class="day" onclick="deletBorder(this)">
+      <div class="day" onclick="deletBorder(this)" data-index=1>
         <h4>یکشنبه</h4>
         <p class="pStyle">0</p>
       </div>
-      <div class="day" onclick="deletBorder(this)">
+      <div class="day" onclick="deletBorder(this)" data-index=2>
         <h4>دوشنبه</h4>
         <p class="pStyle">4</p>
       </div>
-      <div class="day" onclick="deletBorder(this)">
+      <div class="day" onclick="deletBorder(this)" data-index=3>
         <h4>سه شنبه</h4>
         <p class="pStyle">5</p>
       </div>
-      <div class="day" onclick="deletBorder(this)">
+      <div class="day" onclick="deletBorder(this)" data-index=4>
         <h4>چهارشنبه</h4>
         <p class="pStyle">5</p>
       </div>
-      <div class="day" onclick="deletBorder(this)">
+      <div class="day" onclick="deletBorder(this)" data-index=5>
         <h4>پنجشنبه</h4>
         <p class="pStyle">2</p>
       </div>
-      <div class="day" onclick="deletBorder(this)">
+      <div class="day" onclick="deletBorder(this)" data-index=6>
         <h4>جمعه</h4>
         <p class="pStyle">9</p>
       </div>
     </div>
-    <!-- <div class="login">
+    <div class="login">
         <form id="login-form">
             <input type="text" placeholder="نام کاربری" id="userName">
             <input type="text" placeholder="نام و نام خانوادگی" id="fullName">
@@ -46,16 +47,22 @@
             <h5 id="phoneError"></h5>
             <button type="submit" onclick="loginSubmit(event)" id="login-btn">ورود</button>
         </form>
-    </div> -->
+    </div>
     <ul class="todo">
 
     </ul>
+
+    <div class="editBox">
+      <input type="text" id="editText">
+      <button type="submit" id="sub-btn">ثبت</button>
+    </div>
+
     <div class="container">
         <footer>
             <form>
-                <input type="text" id="work">
-                <input type="time" value="" id="time">
-                <button type="submit" id="add-btn" onclick=" addTodo(event)">افزودن</button>
+                <input type="text" id="taskName">
+                <input type="time" value="" id="taskTime">
+                <button type="submit" id="add-btn" onclick=" addTodo(event) ">افزودن</button>
             </form>
         </footer>
     </div>
